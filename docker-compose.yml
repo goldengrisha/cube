@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  triton-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app # Mount local ./app directory to /app in the container
+    ports:
+      - '8000:8000'
+      - '8001:8001'
+    environment:
+      - MODEL_NAME=StableDiffusion_1_5
+      - WARMUP_MODEL=True

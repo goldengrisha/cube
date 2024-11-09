@@ -1,0 +1,6 @@
+numpy==1.26.4
+torch==2.5.1
+nvidia-pytriton==0.5.12
+transformers==4.46.2
+diffusers==0.31.0
+accelerate==1.1.1
