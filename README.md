@@ -5,7 +5,7 @@
 Or 
 1. `docker-compose up`
 
-# Optional:
+# Optional improvements:
 1. Done
 2. Apply adjustments to the latent space to improve the quality of the generated images.
 In diffusion models, the latent space is an important feature that influences the quality and diversity of generated images. It can be explored through various techniques like:
